@@ -56,6 +56,6 @@ public class UTestStepDefinitions {
 
     @Then("^the register is complete$")
     public void theRegisterIsComplete(List<UTestData>uTestData) throws Exception{
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(uTestData.get(0).getStrSuccessfulSignUpMessage())));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(uTestData.get(0).getStrSuccessSignUpMessage())));
     }
 }

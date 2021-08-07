@@ -18,7 +18,7 @@ public class UTestData {
     private String strModel;
     private String strMobileOs;
     private String strPassword;
-    private String strSuccessfulSignUpMessage;
+    private String strSuccessSignUpMessage;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -156,11 +156,11 @@ public class UTestData {
         this.strPassword = strPassword;
     }
 
-    public String getStrSuccessfulSignUpMessage() {
-        return strSuccessfulSignUpMessage;
+    public String getStrSuccessSignUpMessage() {
+        return strSuccessSignUpMessage;
     }
 
-    public void setStrSuccessfulSignUpMessage(String strSuccessfulSignUpMessage) {
-        this.strSuccessfulSignUpMessage = strSuccessfulSignUpMessage;
+    public void setStrSuccessSignUpMessage(String strSuccessSignUpMessage) {
+        this.strSuccessSignUpMessage = strSuccessSignUpMessage;
     }
 }

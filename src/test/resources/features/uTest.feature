@@ -11,8 +11,8 @@
         | strFirstName   | strLastName   | strEmailAddress   | strBirthMonth   | strBirthDay   | strBirthYear   | strUserLanguage   | strCity   | strZipPostalCode   | strCountry   | strComputerOs   | strOsVersion   | strComputerLanguage   | strMobileDevice   | strModel   | strMobileOs   | strPassword   |
         | <strFirstName> | <strLastName> | <strEmailAddress> | <strBirthMonth> | <strBirthDay> | <strBirthYear> | <strUserLanguage> | <strCity> | <strZipPostalCode> | <strCountry> | <strComputerOs> | <strOsVersion> | <strComputerLanguage> | <strMobileDevice> | <strModel> | <strMobileOs> | <strPassword> |
       Then the register is complete
-        | strSuccessfulSignUpMessage                                              |
+        | strSuccessSignUpMessage                                                 |
         | Welcome to the world's largest community of freelance software testers! |
       Examples:
         | strFirstName | strLastName | strEmailAddress         | strBirthMonth | strBirthDay | strBirthYear | strUserLanguage | strCity        |  strZipPostalCode | strCountry | strComputerOs | strOsVersion | strComputerLanguage | strMobileDevice | strModel                  | strMobileOs | strPassword   |
-        | Jefferson    | Martinez    | jampandres98@gmail.com  | May           | 28          | 1998         | Spanish         | Villavicencio  |  500001           | Colombia   | Windows       | 10           | Spanish             | Xiaomi          | Mi 8 Lite (Youth/8X)      | Android 10  | Jeff123456@       |
+        | Jefferson    | Martinez    | jampandres98@gmail.com  | May           | 28          | 1998         | Spanish         | Villavicencio  |  500001           | Colombia   | Windows       | 10           | Spanish             | Xiaomi          | Mi 8 Lite (Youth/8X)      | Android 10  | Jeff123456@   |
